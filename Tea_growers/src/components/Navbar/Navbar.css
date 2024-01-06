@@ -1,0 +1,53 @@
+.intro{
+    background: rgb(47, 208, 130);
+    height: 4rem;
+    width: 100%;
+    margin: 0 ;
+    padding: 0.5rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+}
+.navitem{
+    margin: 1rem;
+    color: white;
+    font-weight: 300;
+}
+.navitem:hover{
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+}
+.registerbtn{
+    background: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    padding: 0.8rem 1rem;
+    border-radius: 2rem;
+    font-weight: 500;
+    
+}
+.registerbtn:hover{
+   color: rgb(132, 132, 235); 
+   
+}
+.icon{
+    color: rgb(28, 19, 19);
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 0;
+    margin-right: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.title{
+    color: rgb(15, 14, 14);
+    font-weight: 600;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
