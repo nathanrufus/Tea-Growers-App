@@ -7,7 +7,8 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    position: sticky;
+    z-index: 2;
+    position: absolute;
 }
 .navitem{
     margin: 1rem;
