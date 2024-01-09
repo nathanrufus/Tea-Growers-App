@@ -1,0 +1,24 @@
+.about{
+    margin: 2rem;
+}
+.about h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: rgb(21, 52, 52);
+    font-size: 30px;
+    margin: 0.5rem;
+}
+.aboutcontent{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.aboutcontent img{
+    width: 100%;
+    max-width: 40rem;
+    margin: 1rem;
+    border-radius: 4px;
+}
+
