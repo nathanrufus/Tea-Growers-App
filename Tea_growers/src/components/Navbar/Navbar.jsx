@@ -13,11 +13,9 @@ function Navbar() {
         <div className="nav">
           <Link className="navitem">Home</Link>
           <Link className="navitem">Quality</Link>
-          <Link className="navitem">Register</Link>
           <Link className="navitem">About</Link>
-          <Link className="navitem">Contact</Link>
         </div>
-        <button className="registerbtn">Register</button>
+        <button className="registerbtn">CONTACT US</button>
       </nav>
     </div>
   );

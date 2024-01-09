@@ -1,0 +1,36 @@
+.quality{
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.quality .h1{
+    margin: 0 1rem;
+}
+.qualitytxt{
+    margin: 1rem;
+    padding: 0.5rem;
+    font-weight: 500;
+    line-height: 1rem;
+}
+.cards{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.cards1{
+    margin: 1.5rem;
+    padding: 0.5rem;
+    box-shadow: 0 40px 28px rgb(0,0,0,0.25),0 10px 10px rgb(0,0,0,0.22);
+    transition: .4s;}
+.cards1 .h1{
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+.cards1 img{
+    width: 100%;
+}
