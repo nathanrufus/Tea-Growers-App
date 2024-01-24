@@ -11,8 +11,7 @@
 .qualitytxt{
     margin: 1rem;
     padding: 0.5rem;
-    font-weight: 500;
-    line-height: 1rem;
+    line-height: 1.2rem;
 }
 .cards{
     height: 100%;
@@ -23,14 +22,26 @@
     justify-content: center;
 }
 .cards1{
+    height: 25rem;
     margin: 1.5rem;
     padding: 0.5rem;
     box-shadow: 0 40px 28px rgb(0,0,0,0.25),0 10px 10px rgb(0,0,0,0.22);
-    transition: .4s;}
+    transition: .4s;
+    vertical-align: top;
+
+}
 .cards1 .h1{
     margin: 0.5rem;
     padding: 0.5rem;
 }
 .cards1 img{
     width: 100%;
+    max-width: 30rem;
+    height: 100%;
+    max-height: 15rem;
+    overflow: hidden;
+    margin-left: 0;
+}
+.cards1 p{
+    line-height: 1.2rem;
 }

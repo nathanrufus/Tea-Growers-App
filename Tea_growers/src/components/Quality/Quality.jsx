@@ -1,6 +1,9 @@
 import React from "react";
 import "./Quality.css";
-import image1 from "../Assets/im1.jpeg";
+import image1 from "../Assets/green2.jpeg";
+import image2 from "../Assets/imageblack.jpeg";
+import image3 from "../Assets/white2.jpeg";
+
 
 function Quality() {
   return (
@@ -24,32 +27,27 @@ function Quality() {
         <div className="cards">
           <div className="cards1">
             <img src={image1} alt="" />
-            <h1>className</h1>
+            <h1>Green Tea</h1>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
-              minima natus reiciendis nesciunt qui harum aspernatur tenetur,
-              sequi, voluptate placeat modi tempore eveniet! Adipisci officia,
-              minus temporibus voluptatum blanditiis exercitationem!
+            Made with steamed tea leaves, it has a high concentration of EGCG
+             and has been widely studied. Green tea’s antioxidants may interfere
+              with the growth of bladder, breast, lung, stomach, pancreatic, and colorectal cancers
             </p>
           </div>
           <div className="cards1">
-            <img src={image1} alt="" />
-            <h1>className</h1>
+            <img src={image2} alt="" />
+            <h1>Black Tea</h1>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
-              minima natus reiciendis nesciunt qui harum aspernatur tenetur,
-              sequi, voluptate placeat modi tempore eveniet! Adipisci officia,
-              minus temporibus voluptatum blanditiis exercitationem!
+            Made with fermented tea leaves, black tea has the highest caffeine content and 
+            forms the basis for flavored teas like chai, along with some instant teas.
             </p>
           </div>
           <div className="cards1">
-            <img src={image1} alt="" />
-            <h1>className</h1>
+            <img src={image3} alt="" />
+            <h1>White Tea</h1>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
-              minima natus reiciendis nesciunt qui harum aspernatur tenetur,
-              sequi, voluptate placeat modi tempore eveniet! Adipisci officia,
-              minus temporibus voluptatum blanditiis exercitationem!
+            Uncured and unfermented. One study showed that white tea has the most 
+            potent anticancer properties compared to more processed teas.
             </p>
           </div>
         </div>

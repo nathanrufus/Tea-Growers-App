@@ -1,5 +1,12 @@
 .about{
-    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto 2rem;
+    height: 80vh;
+    color: white;
+    background: rgb(149, 82, 81);
 }
 .about h1{
     display: flex;
@@ -8,7 +15,7 @@
     font-weight: 600;
     color: rgb(21, 52, 52);
     font-size: 30px;
-    margin: 0.5rem;
+    margin-bottom: 3rem;
 }
 .aboutcontent{
    display: flex;
@@ -21,4 +28,11 @@
     margin: 1rem;
     border-radius: 4px;
 }
-
+.aboutea h2{
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.abouttea p{
+    line-height: 1.3rem;
+    font-weight: 200;
+}

@@ -16,6 +16,7 @@
     margin: 1rem;
     color: white;
     font-weight: 300;
+    cursor: pointer;
 }
 .navitem:hover{
     color: yellow;
