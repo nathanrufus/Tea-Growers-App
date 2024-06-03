@@ -1,29 +1,41 @@
-.intro{
+/* Existing styles */
+.intro {
     background: rgb(47, 208, 130);
     height: 4rem;
     width: 100%;
-    margin: 0 ;
+    margin: 0;
     padding: 0.5rem 0.5rem;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     z-index: 2;
     position: fixed;
-    
-    
 }
-.navitem{
+
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.navitem {
     margin: 1rem;
     color: white;
     font-weight: 300;
     cursor: pointer;
 }
-.navitem:hover{
+
+.navitem:hover {
     color: yellow;
     padding-bottom: 0.5rem;
     border-bottom: 3px solid yellow;
 }
-.registerbtn{
+
+.registerbtn {
     background: white;
     border: none;
     display: flex;
@@ -33,13 +45,13 @@
     padding: 0.8rem 1rem;
     border-radius: 2rem;
     font-weight: 500;
-    
 }
-.registerbtn:hover{
-   color: rgb(132, 132, 235); 
-   
+
+.registerbtn:hover {
+    color: rgb(132, 132, 235);
 }
-.icon{
+
+.icon {
     color: rgb(28, 19, 19);
     font-size: 1.5rem;
     cursor: pointer;
@@ -48,10 +60,81 @@
     align-items: center;
     justify-content: space-between;
 }
-.title{
+
+.title {
     color: rgb(15, 14, 14);
     font-weight: 600;
     align-items: center;
     font-size: 1.5rem;
 }
 
+.menu-icon {
+    display: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .intro {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0.5rem;
+    }
+    .nav {
+        position: absolute;
+        top: 4rem;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: baseline;
+        background: white; /* White background for the menu */
+        display: none; /* Hide nav items by default on smaller screens */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Optional: add shadow for better visibility */
+        z-index: 1; /* Ensure it appears above other content */
+    }
+    .nav.nav-open {
+        display: flex; /* Show nav items when menu is open */
+    }
+    .navitem {
+        color: black; /* Change text color to black on white background */
+        margin: 0.5rem 0;
+    }
+    .navitem:hover {
+        color: yellow;
+        padding-bottom: 0.5rem;
+        border-bottom: 3px solid yellow;
+    }
+    .registerbtn {
+        margin: 0.5rem 0;
+        padding: 0.5rem 1rem;
+    }
+    .menu-icon {
+        display: block; /* Show menu icon on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .intro {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .nav-left, .nav-right {
+        flex: 1;
+    }
+    .title {
+        font-size: 1.2rem;
+    }
+    .icon {
+        font-size: 1.2rem;
+    }
+    .navitem {
+        font-size: 0.9rem;
+    }
+    .registerbtn {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+    }
+}

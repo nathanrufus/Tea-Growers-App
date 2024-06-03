@@ -45,3 +45,35 @@
 .cards1 p{
     line-height: 1.2rem;
 }
+/* Responsive styles */
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+    }
+    .cards1 {
+        width: 80%; /* Adjust width for medium screens */
+        margin: 1rem 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .quality {
+        margin: 1rem;
+    }
+    .qualitytxt {
+        margin: 0.5rem;
+        padding: 0.25rem;
+        line-height: 1rem;
+    }
+    .cards1 {
+        width: 100%; /* Adjust width for small screens */
+        margin: 0.5rem 0;
+    }
+    .cards1 img {
+        max-height: 10rem; /* Adjust image height for small screens */
+    }
+    .cards1 p {
+        line-height: 1rem;
+        font-size: 0.9rem; /* Adjust font size for small screens */
+    }
+}

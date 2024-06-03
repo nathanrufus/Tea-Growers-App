@@ -24,7 +24,7 @@
 }
 .aboutcontent img{
     width: 100%;
-    max-width: 40rem;
+    max-width: 30rem;
     margin: 1rem;
     border-radius: 4px;
 }
@@ -35,4 +35,57 @@
 .abouttea p{
     line-height: 1.3rem;
     font-weight: 200;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .abouttea p{
+        font-size: smaller;
+    }
+    .about {
+        margin: auto 1rem;
+        padding: 1rem;
+    }
+    .about h1 {
+        font-size: 26px;
+        margin-bottom: 2rem;
+    }
+    .aboutcontent {
+        flex-direction: column;
+    }
+    .aboutcontent img {
+        max-width: 25rem;
+    }
+    .aboutea h2 {
+        font-size: 22px;
+    }
+    .aboutcontent img{
+        margin: 2px;
+        max-width: 10rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        margin: auto 0.5rem;
+    }
+    .about h1 {
+        font-size: 22px;
+        margin-bottom: 1.5rem;
+    }
+    .aboutcontent img {
+        max-width: 100%;
+    }
+    .aboutea h2 {
+        font-size: 20px;
+    }
+    .abouttea p {
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+        font-size: smaller;
+
+    }
+    .aboutcontent img{
+        max-width: 10rem;
+    }
 }
